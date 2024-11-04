@@ -23,7 +23,7 @@ def executar_poucas_entregas_rotas_curtas():
     grafo.adicionar_aresta("Curitiba", "Fortaleza", 3469) 
     grafo.adicionar_aresta("Curitiba", "Maringá", 424)      
 
-    caminhoes = [Caminhao(capacidade=500, limite_horas=10)]
+    caminhoes = [Caminhao(capacidade=150, limite_horas=12), Caminhao(capacidade=300, limite_horas=15)]
     
     # Adicionando prazos em dias para as entregas
     entregas = [
